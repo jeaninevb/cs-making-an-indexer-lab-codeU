@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Jays-MacBook-Pro-2.local" name="com.flatironschool.javacs.IndexTest" skipped="0" tests="1" time="0.453" timestamp="2016-06-01T01:10:07">
+<testsuite errors="0" failures="0" hostname="Jays-MacBook-Pro-2.local" name="com.flatironschool.javacs.IndexTest" skipped="0" tests="1" time="0.435" timestamp="2016-06-01T01:12:44">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -79,7 +79,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/bin:/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/jsoup-1.8.3.jar:/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/junit-4.12.jar:/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.IndexTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.IndexTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher4065856976533401661.properties propsfile=/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junit4887806344304742312.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.IndexTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.IndexTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher9073910200989478806.properties propsfile=/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06/junit8782244159625397770.properties" />
     <property name="env.TERM_SESSION_ID" value="7A2F92E3-5714-418E-A5B3-F762A77ED314" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -89,7 +89,6 @@
     <property name="sun.cpu.endian" value="little" />
     <property name="env.HOME" value="/Users/jvictoriab" />
     <property name="debuglevel" value="source,lines,vars" />
-    <property name="env.JAVA_MAIN_CLASS_15110" value="org.apache.tools.ant.launch.Launcher" />
     <property name="java.io.tmpdir" value="/var/folders/f1/v6sq68lj2q9cmvzdg8bww1sc0000gn/T/" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.HIGWoabijZ/Listeners" />
@@ -97,6 +96,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="java.ext.dirs" value="/Users/jvictoriab/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
     <property name="user.dir" value="/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU" />
+    <property name="env.JAVA_MAIN_CLASS_15204" value="org.apache.tools.ant.launch.Launcher" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="basedir" value="/Users/jvictoriab/Desktop/CodeU/cs-making-an-indexer-lab-codeU/javacs-lab06" />
@@ -107,7 +107,7 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.IndexTest" name="testIndexPage" time="0.39" />
+  <testcase classname="com.flatironschool.javacs.IndexTest" name="testIndexPage" time="0.377" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
