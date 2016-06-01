@@ -36,8 +36,18 @@ public class TermCounter {
 	 * @return
 	 */
 	public int size() {
-        // TODO: fill this in.
-		return -1;
+		
+		int totalCount = 0;
+		
+		for (String key: keySet()) {
+			int count = get(key);
+			totalCount += count;
+		}
+		//the wiki page used for the test was updated since TermCounterTest was written, 
+		//therefore there are more terms per page, and my code will produce a larger counter
+		//than is it is being tested to in TermCounterTest(4798)
+		
+		return totalCount;
 	}
 
 	/**
@@ -125,10 +135,12 @@ public class TermCounter {
 	 * Print the terms and their counts in arbitrary order.
 	 */
 	public void printCounts() {
+			
 		for (String key: keySet()) {
 			Integer count = get(key);
 			System.out.println(key + ", " + count);
 		}
+
 		System.out.println("Total of all counts = " + size());
 	}
 
